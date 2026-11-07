@@ -15,3 +15,8 @@ rq.debug.action{
     rq.log("hello from " .. MOD)
   end,
 }
+
+-- Globals here are this mod's own: other mods do not see them. To share something with other
+-- mods (a library), return it here; mods that list this mod in "dependencies" get it with
+-- require("<this mod's id>"), and any mod with rq.mod.get. Needs "loader": "2.0.0".
+-- return { hello = function() rq.log("hello from " .. MOD) end }
