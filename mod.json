@@ -1,0 +1,9 @@
+{
+  "$schema": "https://rq-modding.github.io/rq-modding-docs/schemas/mod.schema.json",
+  "id": "my-mod",
+  "name": "My Mod",
+  "author": "Your name",
+  "version": "0.1.0",
+  "loader": "1.14.2",
+  "priority": 0
+}
