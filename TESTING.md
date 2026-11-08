@@ -18,6 +18,10 @@ A game button under one of the mod's widgets is listed `"covered": true` in `rqm
 `press` refuses it, as a player could not click it either (loader 2.11.0). Say here which game
 buttons the mod covers, and when.
 
+Where the mod's widgets take the keys (a page, `rq.uikit.keys`), the arrows and Enter move and
+click them, and the widget under the keys' cursor is listed `"focused": true` (loader 2.12.0). Say
+here which screens of the mod take the keys.
+
 ## Forcing it for a test
 
 Calls a throwaway test mod can make to set up the case (characters, items, rolls), and what to undo
