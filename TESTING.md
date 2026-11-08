@@ -14,6 +14,10 @@ Assume nothing about the mod when it is not installed: check `logs\rqmod.log` fo
 1. Where to go in the game, and what to do.
 2. What the screen, `rqmod-ctl ui` or the log must show, and what it shows without the mod.
 
+A game button under one of the mod's widgets is listed `"covered": true` in `rqmod-ctl ui`, and
+`press` refuses it, as a player could not click it either (loader 2.11.0). Say here which game
+buttons the mod covers, and when.
+
 ## Forcing it for a test
 
 Calls a throwaway test mod can make to set up the case (characters, items, rolls), and what to undo
