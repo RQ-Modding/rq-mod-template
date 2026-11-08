@@ -16,6 +16,8 @@ Using this template (delete this block when you are done):
 Editor: open the game folder with the mod in mods/<id>, and .luarc.json points the Lua extension at
 the game's lua/rq.lua. Elsewhere, point "workspace.library" at that folder with a full path.
 Docs: https://rq-modding.github.io/rq-modding-docs/
+A way in to the mod from the game's own menus (the SYSTEM menu's MODS list, a room in Rance
+Castle): the guide "Buttons in the game's menus" in the docs.
 -->
 
 What the mod does for a player, in a sentence or two.
@@ -27,7 +29,7 @@ What the mod does for a player, in a sentence or two.
 
 ## Keys and settings
 
-- Any key it adds, debug page (F3) rows, Config → Mods page, or file in its folder to edit.
+- Any key it adds, debug page (F3) rows, Config → Mods page, SYSTEM → MODS entry, castle room, or file in its folder to edit.
 - Or: "None."
 
 ## Saves
