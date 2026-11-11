@@ -4,7 +4,7 @@
 Using this template (delete this block when you are done):
 
 1. Rename the folder and set `id`, `name` and `author` in mod.json. The id is final: saves keep the
-   mod's rq.store data under it. Use lowercase letters, digits and dashes.
+   mod's rq.savedata and rq.store data under it. Use lowercase letters, digits and dashes.
 2. Put your name in LICENSE (MIT), or choose another license.
 3. Write the mod in init.lua. Lower `loader` in mod.json to the oldest RQ MOD version that has every
    call you use: each entry in the API reference says when it was added.
@@ -36,7 +36,8 @@ What the mod does for a player, in a sentence or two.
 ## Saves
 
 What stays in a save after the mod is removed: items it gave, skills it taught, characters it
-changed. Values in `rq.store` stay in `rqmod-store.json` beside the save, and the game ignores them.
+changed. Values in `rq.savedata` stay in `RanceQuestMagnum_030.rqmod.json` beside the save, and those
+in `rq.store` in `rqmod-store.json` in the save profile; the game ignores both.
 Or: "Nothing; remove the mod and the game is as before."
 
 ## Works with
