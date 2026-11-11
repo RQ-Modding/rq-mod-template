@@ -17,8 +17,10 @@ Editor: open the game folder with the mod in mods/<id>, and .luarc.json points t
 the game's lua/rq.lua. Elsewhere, point "workspace.library" at that folder with a full path.
 Docs: https://rq-modding.github.io/rq-modding-docs/
 A way in to the mod from the game's own menus (the SYSTEM menu's MODS list, a room in Rance
-Castle): the guide "Buttons in the game's menus" in the docs. The money, random fights, EXP and
-levels, and waiting: the guide "Gold, encounters and levels".
+Castle): the guide "Buttons in the game's menus" in the docs. Settings the player changes in
+Config → Mods: rq.config.settings (loader 2.35.0), a page built from a list of rows, in the same
+guide ("A page in Config"). The money, random fights, EXP and levels, the party, and waiting: the
+guide "Gold, encounters and levels". No install() calls are needed since 2.35.0.
 -->
 
 What the mod does for a player, in a sentence or two.
