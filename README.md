@@ -20,7 +20,9 @@ A way in to the mod from the game's own menus (the SYSTEM menu's MODS list, a ro
 Castle): the guide "Buttons in the game's menus" in the docs. Settings the player changes in
 Config → Mods: rq.config.settings (loader 2.35.0), a page built from a list of rows, in the same
 guide ("A page in Config"). The money, random fights, EXP and levels, the party, and waiting: the
-guide "Gold, encounters and levels". No install() calls are needed since 2.35.0.
+guide "Gold, encounters and levels". No install() calls are needed since 2.35.0. Monsters
+(rq.monster: get, edit, on_create), the mode and a fight from a mod (rq.battle.start with boss,
+names, background, music, gold) are in the same guide (loader 2.36.0).
 -->
 
 What the mod does for a player, in a sentence or two.
