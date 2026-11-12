@@ -24,7 +24,8 @@ guide "Gold, encounters and levels". No install() calls are needed since 2.35.0.
 (rq.monster: get, edit, on_create), the mode and a fight from a mod (rq.battle.start with boss,
 names, background, music, gold) are in the same guide (loader 2.36.0). A fight's rules (the stun,
 poison, counter and escape chances, heals, the turn order, the ambush and the battle log): the
-guide "Combat rules" (loader 2.37.0).
+guide "Combat rules" (loader 2.37.0). What an enemy or the familiar does on its turn
+(rq.battle.on_choose) and the game's taunt: the same guide (loader 2.38.0).
 -->
 
 What the mod does for a player, in a sentence or two.
