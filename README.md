@@ -20,14 +20,16 @@ A way in to the mod from the game's own menus (the SYSTEM menu's MODS list, a ro
 Castle): the guide "Buttons in the game's menus" in the docs. Settings the player changes in
 Config → Mods: rq.config.settings (loader 2.35.0), a page built from a list of rows, in the same
 guide ("A page in Config"). The money, random fights, EXP and levels, the party, and waiting: the
-guide "Gold, encounters and levels". No install() calls are needed since 2.35.0. Monsters
-(rq.monster: get, edit, on_create), the mode and a fight from a mod (rq.battle.start with boss,
-names, background, music, gold) are in the same guide (loader 2.36.0). A fight's rules (the stun,
+guide "Gold, encounters and levels". No install() calls are needed since 2.35.0. The mode and a
+fight from a mod (rq.battle.start with boss, names, background, music, gold) are in the same guide
+(loader 2.36.0). A fight's rules (the stun,
 poison, counter and escape chances, heals, the turn order, the ambush and the battle log): the
 guide "Combat rules" (loader 2.37.0). What an enemy or the familiar does on its turn
 (rq.battle.on_choose) and the game's taunt: the same guide (loader 2.38.0). A quest's data and a
 patch on it, the quest being played, the objects on a map, a mod's own objects and the traps: the
-guide "Quests and maps" (loader 2.39.0).
+guide "Quests and maps" (loader 2.39.0). The game's monsters (rq.monster: get, edit, on_create),
+a mod's own monsters with their capture and drops, enemy groups and models: the guide "Monsters
+and enemy groups" (loader 2.40.0).
 -->
 
 What the mod does for a player, in a sentence or two.
