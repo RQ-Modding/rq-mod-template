@@ -30,7 +30,9 @@ patch on it, the quest being played, the objects on a map, a mod's own objects a
 guide "Quests and maps" (loader 2.39.0). The game's monsters (rq.monster: get, edit, on_create),
 a mod's own monsters with their capture and drops, enemy groups and models: the guide "Monsters
 and enemy groups" (loader 2.40.0). Quests of the mod's own with no map (rq.quests.define: a story,
-an arena, a menu, a chain): the guide "Quests of your own" (loader 2.41.0).
+an arena, a menu, a chain): the guide "Quests of your own" (loader 2.41.0). Their maps, built
+from the game's tilesets and rooms (define's map: areas, objects, a boss, a lever): the same
+guide (loader 2.42.0).
 -->
 
 What the mod does for a player, in a sentence or two.
