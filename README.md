@@ -32,7 +32,9 @@ a mod's own monsters with their capture and drops, enemy groups and models: the 
 and enemy groups" (loader 2.40.0). Quests of the mod's own with no map (rq.quests.define: a story,
 an arena, a menu, a chain): the guide "Quests of your own" (loader 2.41.0). Their maps, built
 from the game's tilesets and rooms (define's map: areas, objects, a boss, a lever): the same
-guide (loader 2.42.0).
+guide (loader 2.42.0). To find a CG, a Flash picture, a music track or a sound and copy the Lua
+line that replaces or plays it: RQ Browser, rq-browser.exe in the game's xsystem4 folder (the
+guide "Looking through the game's files", loader 2.43.0).
 -->
 
 What the mod does for a player, in a sentence or two.
