@@ -40,6 +40,10 @@ crit, stun and poison rules, read and set as data with rq.combat.rules and set_r
 purchase record in rq.chara.slots and on_forget, base_skills, learnable, price, learn,
 skill_room, on_learn): the guide "Gold, encounters and levels", its section "Skills and their
 price" (loader 2.45.0).
+A hit's damage limit and element (rq.combat.on_cap, on_element) and the game's Weakness Search
+from a mod (rq.battle.reveal_weakness): the guide "Combat rules"; who can equip an item
+(rq.item.on_can_equip), Athena's Studies (rq.battle.on_study) and the game's skill reset
+(rq.chara.on_skill_reset): the guide "Gold, encounters and levels" (loader 2.46.0).
 -->
 
 What the mod does for a player, in a sentence or two.
