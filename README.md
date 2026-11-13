@@ -44,6 +44,10 @@ A hit's damage limit and element (rq.combat.on_cap, on_element) and the game's W
 from a mod (rq.battle.reveal_weakness): the guide "Combat rules"; who can equip an item
 (rq.item.on_can_equip), Athena's Studies (rq.battle.on_study) and the game's skill reset
 (rq.chara.on_skill_reset): the guide "Gold, encounters and levels" (loader 2.46.0).
+A free appraisal (rq.item.appraise), an item stocked while the shop shows and a character the game
+sends home after a fight (rq.party.on_go_home): the same guide; the game's Quest Storage window's
+tiles (rq.ui.quest_storage), a picture as a button (rq.uikit.icon_button) and locked cells in
+rq.uikit.item_window: the guide "Buttons in the game's menus" (loader 2.47.0).
 -->
 
 What the mod does for a player, in a sentence or two.
