@@ -48,6 +48,10 @@ A free appraisal (rq.item.appraise), an item stocked while the shop shows and a 
 sends home after a fight (rq.party.on_go_home): the same guide; the game's Quest Storage window's
 tiles (rq.ui.quest_storage), a picture as a button (rq.uikit.icon_button) and locked cells in
 rq.uikit.item_window: the guide "Buttons in the game's menus" (loader 2.47.0).
+The buy list after some purchases or erasures and what its conditions name (rq.chara.learnable's
+after, needs and level), the Boosts whose effect the third world keeps after an ERASE
+(rq.chara.boosts, on_forget's kept): the guide "Gold, encounters and levels", its section "Skills
+and their price" (loader 2.48.0).
 -->
 
 What the mod does for a player, in a sentence or two.
