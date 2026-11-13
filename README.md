@@ -36,7 +36,10 @@ guide (loader 2.42.0). To find a CG, a Flash picture, a music track or a sound a
 line that replaces or plays it: RQ Browser, rq-browser.exe in the game's xsystem4 folder (the
 guide "Looking through the game's files", loader 2.43.0). What a skill can do in a fight (its
 crit, stun and poison rules, read and set as data with rq.combat.rules and set_rules): the guide
-"Combat rules" (loader 2.44.0).
+"Combat rules" (loader 2.44.0). What a skill cost and buying skills as the game does (the
+purchase record in rq.chara.slots and on_forget, base_skills, learnable, price, learn,
+skill_room, on_learn): the guide "Gold, encounters and levels", its section "Skills and their
+price" (loader 2.45.0).
 -->
 
 What the mod does for a player, in a sentence or two.
