@@ -56,6 +56,10 @@ Several copies of an item in one Frostbuy visit, with their levels and prices be
 (rq.shop.restocks, restock, next), and rq.item.buy running rq.shop.on_buy: the same guide, its
 section "Appraisal and the shop"; a small number field with MIN and MAX and item rows to tick
 (rq.uikit.stepper's h and ends, item_list's and item_picker's marks): the reference (loader 2.49.0).
+A purchase a mod can refuse (rq.shop.on_can_buy, the reason from rq.item.buy) and an item the
+player cannot get rid of (rq.item.define's keep): the same section; the game's autosave from a mod
+(rq.saves.autosave): the guide "Data that follows the save"; the game's item card in a scene
+(rq.scene.item): the reference (loader 2.50.0).
 -->
 
 What the mod does for a player, in a sentence or two.
