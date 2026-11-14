@@ -52,6 +52,10 @@ The buy list after some purchases or erasures and what its conditions name (rq.c
 after, needs and level), the Boosts whose effect the third world keeps after an ERASE
 (rq.chara.boosts, on_forget's kept): the guide "Gold, encounters and levels", its section "Skills
 and their price" (loader 2.48.0).
+Several copies of an item in one Frostbuy visit, with their levels and prices before buying
+(rq.shop.restocks, restock, next), and rq.item.buy running rq.shop.on_buy: the same guide, its
+section "Appraisal and the shop"; a small number field with MIN and MAX and item rows to tick
+(rq.uikit.stepper's h and ends, item_list's and item_picker's marks): the reference (loader 2.49.0).
 -->
 
 What the mod does for a player, in a sentence or two.
