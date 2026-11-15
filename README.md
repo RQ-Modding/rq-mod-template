@@ -63,6 +63,9 @@ player cannot get rid of (rq.item.define's keep): the same section; the game's a
 An erasure a mod makes for the player, which a mod that pays back ERASE pays back too
 (rq.chara.forget's player, on_forget's player and mod, forget's points back): the guide "Gold,
 encounters and levels", its section "Skills and their price" (loader 2.51.0).
+What the on_forget callbacks would give back for an erasure, asked before it, for the price of a
+change that erases skills (rq.chara.forget_points, on_forget's n and preview): the same section
+(loader 2.52.0).
 -->
 
 What the mod does for a player, in a sentence or two.
