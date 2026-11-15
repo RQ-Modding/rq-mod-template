@@ -70,6 +70,11 @@ The purchase record a mod writes for its skill that takes the place of others, s
 back what all of them cost (rq.chara.set_cost): the same section (loader 2.53.0).
 More known skills than the game's 17, shown in pages on the status page and in the skill window
 (rq.knownskills): the reference (loader 2.54.0).
+An item that works when it is equipped (rq.item.on_equip), a refusal that says why
+(rq.item.on_can_equip's text), a skill check answered "no" while the skill stays
+(rq.chara.on_has_skill) and a hook for some calls only (rq.ain.hook's only): the guide "Gold,
+encounters and levels", its sections "Who can equip an item" and "A skill kept, its effect not",
+and "The game's own code" (loader 2.55.0).
 -->
 
 What the mod does for a player, in a sentence or two.
