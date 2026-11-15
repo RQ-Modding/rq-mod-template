@@ -60,6 +60,9 @@ A purchase a mod can refuse (rq.shop.on_can_buy, the reason from rq.item.buy) an
 player cannot get rid of (rq.item.define's keep): the same section; the game's autosave from a mod
 (rq.saves.autosave): the guide "Data that follows the save"; the game's item card in a scene
 (rq.scene.item): the reference (loader 2.50.0).
+An erasure a mod makes for the player, which a mod that pays back ERASE pays back too
+(rq.chara.forget's player, on_forget's player and mod, forget's points back): the guide "Gold,
+encounters and levels", its section "Skills and their price" (loader 2.51.0).
 -->
 
 What the mod does for a player, in a sentence or two.
