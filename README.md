@@ -68,6 +68,8 @@ change that erases skills (rq.chara.forget_points, on_forget's n and preview): t
 (loader 2.52.0).
 The purchase record a mod writes for its skill that takes the place of others, so an erasure gives
 back what all of them cost (rq.chara.set_cost): the same section (loader 2.53.0).
+More known skills than the game's 17, shown in pages on the status page and in the skill window
+(rq.knownskills): the reference (loader 2.54.0).
 -->
 
 What the mod does for a player, in a sentence or two.
