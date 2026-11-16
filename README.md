@@ -33,8 +33,8 @@ and enemy groups" (loader 2.40.0). Quests of the mod's own with no map (rq.quest
 an arena, a menu, a chain): the guide "Quests of your own" (loader 2.41.0). Their maps, built
 from the game's tilesets and rooms (define's map: areas, objects, a boss, a lever): the same
 guide (loader 2.42.0). To find a CG, a Flash picture, a music track or a sound and copy the Lua
-line that replaces or plays it: RQ Browser, rq-browser.exe in the game's xsystem4 folder (the
-guide "Looking through the game's files", loader 2.43.0). What a skill can do in a fight (its
+line that replaces or plays it: Rance Browser, rance-browser.exe in the game's xsystem4 folder (the
+guide "Looking through the game's files", loader 2.43.0; RQ Browser, rq-browser.exe, before 2.55.1). What a skill can do in a fight (its
 crit, stun and poison rules, read and set as data with rq.combat.rules and set_rules): the guide
 "Combat rules" (loader 2.44.0). What a skill cost and buying skills as the game does (the
 purchase record in rq.chara.slots and on_forget, base_skills, learnable, price, learn,
