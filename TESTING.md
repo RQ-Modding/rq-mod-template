@@ -27,6 +27,7 @@ here which screens of the mod take the keys.
 Calls a throwaway test mod can make to set up the case (characters, items, rolls), and what to undo
 afterwards. Work on a copy of the save.
 
-## Test Lab
+## Tested in the game
 
-The Test Lab scenario that covers it, if any.
+What was played and seen with this version: the RQ MOD version, where in the game, what was done
+and what showed. Name a Test Lab scenario too when one covers the mod.

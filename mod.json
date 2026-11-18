@@ -4,6 +4,6 @@
   "name": "My Mod",
   "author": "Your name",
   "version": "0.1.0",
-  "loader": "1.14.2",
+  "loader": "2.59.1",
   "priority": 0
 }
