@@ -102,7 +102,7 @@ Other mods it was tested with, and any it needs or conflicts with (also listed i
 
 ## Install
 
-Needs [RQ MOD](https://github.com/RQ-Modding/RQ-Mod) with loader **2.59.1** or newer. Extract the
+Needs [RQ MOD](https://github.com/RQ-Modding/RQ-Mod) with loader **2.59.2** or newer. Extract the
 release zip into the game's `mods` folder, so that you have `mods/my-mod/mod.json`.
 
 ## License
