@@ -77,6 +77,9 @@ An item that works when it is equipped (rq.item.on_equip), a refusal that says w
 (rq.chara.on_has_skill) and a hook for some calls only (rq.ain.hook's only): the guide "Gold,
 encounters and levels", its sections "Who can equip an item" and "A skill kept, its effect not",
 and "The game's own code" (loader 2.55.0).
+Scenes written as JSON files in the mod's folder (rq.scene.file, check, functions), with a schema
+the editor checks them against and rqmod-ctl playscene to play one while the game runs: the guide
+"Scenes" (loader 2.60.0).
 -->
 
 What the mod does for a player, in a sentence or two.
@@ -104,7 +107,7 @@ Other mods it was tested with, and any it needs or conflicts with (also listed i
 
 ## Install
 
-Needs [RQ MOD](https://github.com/RQ-Modding/RQ-Mod) with loader **2.59.2** or newer. Extract the
+Needs [RQ MOD](https://github.com/RQ-Modding/RQ-Mod) with loader **2.60.0** or newer. Extract the
 release zip into the game's `mods` folder, so that you have `mods/my-mod/mod.json`.
 
 ## License
