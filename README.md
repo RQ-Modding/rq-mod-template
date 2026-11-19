@@ -12,6 +12,8 @@ Using this template (delete this block when you are done):
 5. To release: raise `version` in mod.json, add its section to CHANGELOG.md, commit, then push a tag
    with the same version (`git tag v0.1.0`, `git push origin v0.1.0`). The release workflow zips the
    folder and publishes it.
+6. To have it on the docs' Mods page, see "Getting your mod listed" in the guide "Sharing a mod":
+   https://rq-modding.github.io/rq-modding-docs/guide/publishing#getting-your-mod-listed
 
 Editor: open the game folder with the mod in mods/<id>, and .luarc.json points the Lua extension at
 the game's lua/rq.lua. Elsewhere, point "workspace.library" at that folder with a full path.
