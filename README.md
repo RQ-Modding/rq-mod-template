@@ -79,7 +79,9 @@ encounters and levels", its sections "Who can equip an item" and "A skill kept, 
 and "The game's own code" (loader 2.55.0).
 Scenes written as JSON files in the mod's folder (rq.scene.file, check, functions), with a schema
 the editor checks them against and rqmod-ctl playscene to play one while the game runs: the guide
-"Scenes" (loader 2.60.0).
+"Scenes" (loader 2.60.0). A window that writes those files without Lua and plays them in the
+running game (RQ Scene Editor, rq-scene-editor.exe in the game's xsystem4 folder): the guide
+"The scene editor" (loader 2.62.1).
 -->
 
 What the mod does for a player, in a sentence or two.
@@ -107,7 +109,7 @@ Other mods it was tested with, and any it needs or conflicts with (also listed i
 
 ## Install
 
-Needs [RQ MOD](https://github.com/RQ-Modding/RQ-Mod) with loader **2.61.0** or newer. Extract the
+Needs [RQ MOD](https://github.com/RQ-Modding/RQ-Mod) with loader **2.62.2** or newer. Extract the
 release zip into the game's `mods` folder, so that you have `mods/my-mod/mod.json`.
 
 ## License
